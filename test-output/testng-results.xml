@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (14df139dd233e58983caed7dc9ff19fa)] -> xpath: //a[text()='United States - English']] : has been clicked ---> <br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (14df139dd233e58983caed7dc9ff19fa)] -> xpath: //span[text()='Track']] : has been clicked ---> <br>]]>
+    </line>
+    <line>
+      <![CDATA[1Z320E00DG53916226 : has been passed to ---> [[ChromeDriver: chrome on WINDOWS (14df139dd233e58983caed7dc9ff19fa)] -> xpath: //input[@id='ups-track--qs']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.id: stApp_widgetTrkNumBtn' : has been clicked ---> <br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-11-12T06:30:02 EST" name="Default suite" finished-at="2022-11-12T06:30:12 EST" duration-ms="9543">
+  <suite started-at="2022-11-14T03:07:46 EST" name="Default suite" finished-at="2022-11-14T03:08:25 EST" duration-ms="39368">
     <groups>
     </groups>
-    <test started-at="2022-11-12T06:30:02 EST" name="Default test" finished-at="2022-11-12T06:30:12 EST" duration-ms="9543">
-      <class name="shippingPackage.ShippingTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:shippingPackage.ShippingTest@957e06]" started-at="2022-11-12T06:30:02 EST" name="setUpDriver" finished-at="2022-11-12T06:30:12 EST" duration-ms="9349" status="PASS">
+    <test started-at="2022-11-14T03:07:46 EST" name="Default test" finished-at="2022-11-14T03:08:25 EST" duration-ms="39368">
+      <class name="track.TrackTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:track.TrackTest@957e06]" started-at="2022-11-14T03:07:46 EST" name="setUpDriver" finished-at="2022-11-14T03:07:50 EST" duration-ms="3710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="atest()[pri:0, instance:shippingPackage.ShippingTest@957e06]" started-at="2022-11-12T06:30:12 EST" name="atest" finished-at="2022-11-12T06:30:12 EST" duration-ms="5" status="PASS">
+        <test-method signature="aTest()[pri:0, instance:track.TrackTest@957e06]" started-at="2022-11-14T03:07:50 EST" name="aTest" finished-at="2022-11-14T03:08:25 EST" duration-ms="35417" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (14df139dd233e58983caed7dc9ff19fa)] -> xpath: //a[text()='United States - English']] : has been clicked ---> <br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (14df139dd233e58983caed7dc9ff19fa)] -> xpath: //span[text()='Track']] : has been clicked ---> <br>]]>
+            </line>
+            <line>
+              <![CDATA[1Z320E00DG53916226 : has been passed to ---> [[ChromeDriver: chrome on WINDOWS (14df139dd233e58983caed7dc9ff19fa)] -> xpath: //input[@id='ups-track--qs']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.id: stApp_widgetTrkNumBtn' : has been clicked ---> <br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- atest -->
-        <test-method is-config="true" signature="closingDriverSession()[pri:0, instance:shippingPackage.ShippingTest@957e06]" started-at="2022-11-12T06:30:12 EST" name="closingDriverSession" finished-at="2022-11-12T06:30:12 EST" duration-ms="136" status="PASS">
+        </test-method> <!-- aTest -->
+        <test-method is-config="true" signature="closingDriverSession()[pri:0, instance:track.TrackTest@957e06]" started-at="2022-11-14T03:08:25 EST" name="closingDriverSession" finished-at="2022-11-14T03:08:25 EST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDriverSession -->
-      </class> <!-- shippingPackage.ShippingTest -->
+      </class> <!-- track.TrackTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
