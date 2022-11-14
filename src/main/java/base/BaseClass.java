@@ -68,7 +68,7 @@ public class BaseClass {
 	@AfterMethod
 	public void closingDriverSession() {
 		getDriver().quit();
-
+//
 	}
 
 }
