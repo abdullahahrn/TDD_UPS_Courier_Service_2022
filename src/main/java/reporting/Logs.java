@@ -13,5 +13,5 @@ public class Logs{
 		Reporter.log(msg + "<br>");
 
 	}
-
+//
 }
